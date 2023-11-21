@@ -1,0 +1,8 @@
+wheel
+numpy==1.26.0
+pandas==2.1.2
+rapidfuzz==3.5.2
+scikit-learn==1.3.2
+feature_engine==1.6.2
+streamlit==1.28.2
+requests==2.31.0
