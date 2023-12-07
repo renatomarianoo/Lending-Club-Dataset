@@ -12,11 +12,6 @@ from helpers import (
     empl_length_mapping,
 )
 
-# Setup environment credentials (you'll need to change these)
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "daniels-dl-playground-4edbcb2e6e37.json" # change for your GCP key
-PROJECT = "daniels-dl-playground" # change for your GCP project
-REGION = "us-central1" # change for your GCP region (where your model is hosted)
-
 # Get feat_eng pipelines
 current_directory = os.getcwd()
 
